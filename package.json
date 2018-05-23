@@ -1,0 +1,27 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "Install dependencies:",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start test/karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaspero/learn-js.git"
+  },
+  "author": "Jaspero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaspero/learn-js/issues"
+  },
+  "homepage": "https://github.com/Jaspero/learn-js#readme",
+  "devDependencies": {
+    "jasmine-core": "3.1.0",
+    "karma": "2.0.2",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "1.1.2",
+    "karma-phantomjs-launcher": "1.0.4",
+    "phantomjs": "2.1.7"
+  }
+}
